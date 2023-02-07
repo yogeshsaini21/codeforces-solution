@@ -1,7 +1,6 @@
-package A;
 import java.util.Scanner;
 
-class Main{
+public class Main{
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
@@ -10,7 +9,7 @@ class Main{
         System.out.println(s);
     }
 
-    public static String solve(int n){
+     static String solve(int n){
         return n>=4 && n%2==0 ? "Yes" : "No" ;
     }
 }
