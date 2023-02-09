@@ -21,7 +21,7 @@ public class Main {
     public static int solve(int[] array){
         int v1;
         int v2;
-        for(int i=0;i<array.length;i++){
+        for(int i=0;i<array.length-1;i++){
             v1=1;
             v2=1;
             for(int j=0;j<=i;j++){
